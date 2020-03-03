@@ -30,7 +30,7 @@ app.post('/add', (req, res) => {
     }
 
     return res.json({
-        result: a + b
+        result: a + b + 1 // modification done here
     })
 })
 
